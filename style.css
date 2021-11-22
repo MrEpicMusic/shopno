@@ -412,7 +412,7 @@ header {
 }
 
 .contact {
-	background: #fafcfc url(img/bg.png);
+	background: #fafcfc url(img/bg.png) top center no-repeat;
 	height: 700px;
 }
 
@@ -467,6 +467,11 @@ input:first-child {
 	background-color: #6eeee4;
 	border-radius: 2px;
 	padding: 20px 35px;
+	transition: 1s;
+	cursor: pointer;
+}
+.contact__btn:hover {
+	background: #fff;
 }
 
 .contact__text {
